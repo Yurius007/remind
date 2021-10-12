@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(245, 246, 246);
+}
+h2 , h4 {
+    text-align: center;
+}
+.spr1 {
+    width: 60%;
+    height: 430px;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(232, 243, 231);
+    position: absolute;
+    top: 150px;
+    left: 20%;
+}
+.spr2 {
+    position: absolute;
+    top: 650px;
+}
+.spr3 {
+    position: absolute;
+    top: 1150px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.spr1_header {
+    margin-left: 20px;
+    padding-top: 10px;
+    background-color: rgb(232, 243, 231);
+    width: 300px;
+}
+.lesson1_1 , .lesson1_2 , .lesson1_3 , .lesson1_4 , .lesson1_5 {
+    background-color: white;
+    margin-top: 20px;
+    width: 250px;
+    height: 150px;
+    border-radius: 25px;
+}
