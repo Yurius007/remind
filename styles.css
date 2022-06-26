@@ -1,45 +1,91 @@
 body {
-    background-color: rgb(245, 246, 246);
+    background-color: #CBCE91FF;
 }
+
 h2 , h4 {
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+}
+
+.h2_txt {
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.h4_txt {
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.spr_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .spr1 {
     width: 60%;
-    height: 430px;
     border-radius: 50px;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: rgb(232, 243, 231);
-    position: absolute;
-    top: 150px;
-    left: 20%;
+    background-color: #2C5F2D;
+    padding-bottom: 20px;
 }
 .spr2 {
-    position: absolute;
-    top: 650px;
+    margin-top: 30px;
+    width: 60%;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #2C5F2D;
+    padding-bottom: 20px;
 }
-.spr3 {
-    position: absolute;
-    top: 1150px;
-}
+
 .flex {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.spr1_header {
-    margin-left: 20px;
-    padding-top: 10px;
-    background-color: rgb(232, 243, 231);
-    width: 300px;
-}
-.lesson1_1 , .lesson1_2 , .lesson1_3 , .lesson1_4 , .lesson1_5 {
-    background-color: white;
+
+.flex > div {
+    margin-bottom: 20px;
+    background-color: #97BC62FF;
     margin-top: 20px;
     width: 250px;
     height: 150px;
     border-radius: 25px;
 }
+
+.spr_header {
+    display: flex;
+    justify-content: center;
+    color: rgb(232, 243, 231);
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.boxik {
+    color: #006B38FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+}
+
+.boxik:hover {
+    color: #ADEFD1FF;
+}
+
