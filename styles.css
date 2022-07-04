@@ -89,3 +89,91 @@ a {
     color: #ADEFD1FF;
 }
 
+
+
+@media screen and (min-width: 144px) and (max-width: 775px) {
+
+    .flex > div {
+        margin-bottom: 10px;
+        background-color: #97BC62FF;
+        margin-top: 10px;
+        width: 115px;
+        height: 65px;
+        border-radius: 15px;
+    }
+
+    .h2_txt {
+        font-family: 'Anek Latin', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    
+    .h4_txt {
+        font-family: 'Anek Latin', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .spr_header {
+        display: flex;
+        justify-content: center;
+        color: rgb(232, 243, 231);
+        font-family: 'Anek Latin', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .boxik {
+        color: #006B38FF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Anek Latin', sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .spr1 {
+        width: 80%;
+        border-radius: 30px;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #2C5F2D;
+        padding-bottom: 20px;
+    }
+    .spr2 {
+        margin-top: 30px;
+        width: 80%;
+        border-radius: 30px;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #2C5F2D;
+        padding-bottom: 20px;
+    }   
+}
+
+@media screen and (min-width: 776px) and (max-width: 1000px) {
+    .spr1 {
+        width: 70%;
+        border-radius: 40px;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #2C5F2D;
+        padding-bottom: 20px;
+    }
+    .spr2 {
+        margin-top: 30px;
+        width: 70%;
+        border-radius: 40px;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #2C5F2D;
+        padding-bottom: 20px;
+    } 
+}
